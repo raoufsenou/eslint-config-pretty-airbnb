@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-senou-airbnb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "raoufsenou <raoufsenou@gmail.com> (https://github.com/raoufsenou)",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "confusing-browser-globals": "^1.0.5",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.15.3"
+  },
+  "peerDependencies": {
+    "babel-eslint": "9.x",
+    "eslint": "5.x",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x"
+  }
+}
