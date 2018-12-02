@@ -1,13 +1,13 @@
-# eslint-config-senou-airbnb
+# eslint-config-pretty-airbnb
 
-It is the airbnb style configuration for eslint, with bonus for prettier support.
+Airbnb style configuration for Eslint, prettier support for react and non-react projects.
 
 ## Installation
 
 First, install the package using the following command:
 
 ```sh
-npm i -D eslint-config-senou-airbnb
+npm i -D eslint-config-pretty-airbnb
 ```
 
 ## Airbnb + Prettier default configuration
@@ -16,7 +16,7 @@ Then create a file named `.eslintrc` with following contents in the root folder 
 
 ```json
 {
-  "extends": "senou-airbnb/no-react"
+  "extends": "pretty-airbnb/no-react"
 }
 ```
 
@@ -24,7 +24,7 @@ or for short:
 
 ```json
 {
-  "extends": "senou-airbnb"
+  "extends": "pretty-airbnb"
 }
 ```
 
@@ -37,7 +37,7 @@ If you want to use it when developing an react project then use this config inst
 
 ```json
 {
-  "extends": "senou-airbnb/yes-react"
+  "extends": "pretty-airbnb/yes-react"
 }
 ```
 
