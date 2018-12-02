@@ -9,7 +9,7 @@ module.exports = {
     './rules/imports',
     './rules/jsx-a11y',
     './rules/flowtype',
-    'plugin:prettier/recommended',
+    './rules/prettier',
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2018,

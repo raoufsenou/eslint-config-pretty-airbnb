@@ -1,12 +1,20 @@
 {
   "name": "eslint-config-pretty-airbnb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Airbnb style configuration for Eslint, prettier support for react and non-react projects.",
   "main": "no-react.js",
   "scripts": {},
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raoufsenou/eslint-config-pretty-airbnb.git"
+  },
   "author": "raoufsenou <raoufsenou@gmail.com> (https://github.com/raoufsenou)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raoufsenou/eslint-config-pretty-airbnb/issues"
+  },
+  "homepage": "https://github.com/raoufsenou/eslint-config-pretty-airbnb#readme",
   "dependencies": {
     "babel-eslint": "^9.0.0",
     "confusing-browser-globals": "^1.0.5",
