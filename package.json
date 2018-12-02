@@ -2,7 +2,7 @@
   "name": "eslint-config-senou-airbnb",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "no-react.js",
   "scripts": {},
   "keywords": [],
   "author": "raoufsenou <raoufsenou@gmail.com> (https://github.com/raoufsenou)",

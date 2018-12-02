@@ -10,9 +10,17 @@ First, install the package using the following command:
 npm i -D eslint-config-senou-airbnb
 ```
 
-## Airbnb configuration
+## Airbnb + Prettier default configuration
 
 Then create a file named `.eslintrc` with following contents in the root folder of your project:
+
+```json
+{
+  "extends": "senou-airbnb/no-react"
+}
+```
+
+or for short:
 
 ```json
 {
@@ -20,13 +28,16 @@ Then create a file named `.eslintrc` with following contents in the root folder 
 }
 ```
 
-## Airbnb + Prettier
+this configuration that i use when working on non `react` project. this setup is mix of
+`airbnb-base` rules and `plugin:prettier/recommended`.
 
-If you want to activate the prettier support than use this instead:
+## Airbnb + Prettier for react projects
+
+If you want to use it when developing an react project then use this config instead:
 
 ```json
 {
-  "extends": "senou-airbnb/prettier"
+  "extends": "senou-airbnb/yes-react"
 }
 ```
 
@@ -43,14 +54,4 @@ Then in the vscode settings copy and paste the following settings:
     "js"
 ],
 "files.autoSave": "onFocusChange",
-```
-
-## Use legacy config (No react)
-
-If you want to use this configuration for non react project than, use this instead:
-
-```json
-{
-  "extends": ["senou-airbnb/legacy"]
-}
 ```
