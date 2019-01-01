@@ -1,16 +1,7 @@
 module.exports = {
   extends: [
-    "./rules/best-practices",
-    "./rules/errors",
-    "./rules/node",
-    "./rules/style",
-    "./rules/variables",
-    "./rules/es6",
-    "./rules/react",
-    "./rules/imports",
-    "./rules/jsx-a11y",
-    "./rules/flowtype",
-    "./rules/prettier"
+    './rules/base',
+    './rules/react',
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2018,

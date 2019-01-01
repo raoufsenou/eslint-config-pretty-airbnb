@@ -1,10 +1,22 @@
 {
   "name": "eslint-config-pretty-airbnb",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Airbnb style configuration for Eslint, prettier support for react and non-react projects.",
   "main": "no-react.js",
   "scripts": {},
-  "keywords": [],
+  "keywords": [
+	  "eslint",
+    "eslintconfig",
+    "config",
+    "airbnb",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+		"prettier"
+	],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/raoufsenou/eslint-config-pretty-airbnb.git"
@@ -20,19 +32,10 @@
     "confusing-browser-globals": "^1.0.5",
     "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-flowtype": "^2.50.3",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "prettier": "^1.15.3"
-  },
-  "peerDependencies": {
-    "babel-eslint": "9.x",
-    "eslint": "5.x",
-    "eslint-plugin-flowtype": "2.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-react": "7.x"
   }
 }
