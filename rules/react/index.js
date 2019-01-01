@@ -4,6 +4,7 @@ module.exports = {
     './react-a11y',
   ].map(require.resolve),
 	env:{
+    jest: true,
 		browser: true,
 	},
   parserOptions: {

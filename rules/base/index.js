@@ -1,7 +1,6 @@
 module.exports = {
   extends: [
 		'./best-practices',
-		'./prettier',
 		'./errors',
 		'./es6',
 		'./imports',
