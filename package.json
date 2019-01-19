@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pretty-airbnb",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Airbnb style configuration for Eslint, prettier support for react and non-react projects.",
   "main": "no-react.js",
   "scripts": {},
@@ -28,10 +28,8 @@
   },
   "homepage": "https://github.com/raoufsenou/eslint-config-pretty-airbnb#readme",
   "dependencies": {
-    "confusing-browser-globals": "^1.0.5"
-  },
-  "devDependencies": {
     "babel-eslint": "^9.0.0",
+    "confusing-browser-globals": "^1.0.5",
     "eslint": "^5.9.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
